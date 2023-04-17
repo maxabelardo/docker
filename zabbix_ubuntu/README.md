@@ -13,9 +13,15 @@ Será criada uma imagen no docker com o Linux Ubuntu, dentro dele será instalad
 2 - baixar a imagen do ubuntu:
   ``docker pull ubuntu``
   
-3 - Criar e subir o contener
+3 - Criar o contener
   ``docker run --name zabbix -it ubuntu``
-  
- 4 - Entra no contener para iniciar a instalação do e configuração do Zabbix.
+
+4 - Iniciar o contener
+  ``docker start zabbix``
+
+4 - Entra no contener para iniciar a instalação do e configuração do Zabbix.
   ``docker exec -it zabbix /bin/bash``
- 
+
+### Observação: a imagen do ubuntu, vem com varias ferramentas faltando, com isto é preciso instalar elas antes de iniciar a instalação do zabbix.
+
+
