@@ -24,4 +24,37 @@ Será criada uma imagen no docker com o Linux Ubuntu, dentro dele será instalad
 
 ### Observação: a imagen do ubuntu, vem com varias ferramentas faltando, com isto é preciso instalar elas antes de iniciar a instalação do zabbix.
 
+Instalar ferramenta de IP:
+  `` apt-get install iproute2 -y``
+Testa a instalação com o commando:
+  `` ip a ``
+
+Instalar ferramenta que controla os repositorios do ubuntu:
+  ``apt-get install wget -y``
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
 
